@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Initialize') {
       steps {
-        sh './mvnw package'
+        sh 'mvn package'
       }
     }
 
